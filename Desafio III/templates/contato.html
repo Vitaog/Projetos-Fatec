@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/estilo.css') }}">
+</head>
+<style>
+   
+    
+</style>
+<body background="{{ url_for('static', filename='img/fundo2.png')}}">
+     <div>
+         <img src="{{ url_for('static', filename='img/logo.png')}}" alt="" style="margin-top: 30px;margin-left: 100px;">
+         <a style="margin-right: 100px;" href="contato">Contato</a>
+         <a href="quem-somos">Quem somos |</a>
+         <a href="/">Home |</a>
+     </div>
+     <div>
+        <h2 style="margin-left:100px; margin-top: 40px;;">Entre em contato</h2>
+        <p style="margin-left:100px; margin-right: 100px; margin-top: 25px;;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur quisquam sequi quia. </p>
+        <div> 
+        <p><hr class="linha"> </p>  </div>
+     </div>
+     <div>
+        <form action="/action_page.php" style="margin-left:100px; margin-top: 40px;;">
+            <label for="fname">Seu email:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Assunto:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Descrição:</label><br>
+            <input type="text" id="lname" name="lname" style="height:25px;"><br><br>
+            <input type="submit" value="Enviar">
+          </form> 
+
+     </div>
+     <div>
+        
+            <h4 style="margin-top: 50px; text-align: center;">Todos os direitos reservados</h4>
+        
+     </div>
+
+
+
+
+</body>
+</html>
