@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+}
+/**Classe da barra de navegação**/
+.navbar{
+    background-color: rgb(238, 181, 75);
+    padding: 3px 0px 25px 0px;
+    text-align: center;
+    width: 100%;
+}
+.navbar h2{
+    color: gray;
+    font-size: 200%;
+}
+.navbar span{
+    color: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff; 
+}
+.navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35% 0 35%;
+    }
+
+/**Classe da div da esquerda**/
+    
+.direita{
+    background-color: #fff;
+    width: 33.33%;
+    margin-top: 1%;
+    padding: 1% 1% 1% 1%;
+    margin-top: 2%;
+    margin-left: 28%;
+    float: left;
+}
+.direita h2{
+   color: rgb(238, 181, 75);
+}
+.direita h4{
+    color: rgb(238, 181, 75);
+ }
+.direita img{
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+/**Formatação classe esquerda**/
+.esquerda{
+    float: right;
+    background-color: #fff;
+    width: 13%;
+    margin-top: 2%;
+    margin-right: 20%;
+    
+}
+
+.esquerda span{
+    color: rgb(238, 181, 75);
+}
+.esquerda hr{
+    width: 90%;
+}
+.para_esquerda{
+    margin-left: 10%;
+}
+.esquerda_cinza{
+    background-color: rgb(190, 190, 190);
+    margin-top: 5%;
+    width: 92%;
+}
+.para_esquerda2{
+    margin-left: 10%;
+}
+.para_esquerda2 span{
+    color: rgb(238, 181, 75);
+}
+
+
+/**Classe para footer**/
+.rodape{
+    margin-top: 80%;
+    background-color: rgb(87, 85, 85);
+    text-align: center;
+    width: 50%;
+    height: 25px;
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
