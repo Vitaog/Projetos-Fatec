@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Users</title>
+
+</head>
+<body>
+    
+
+<table id="users">
+    <thead>
+
+        <tr>
+            <th>E-mail</th>
+            <th>Assunto</th>
+            <th>Descrição</th>
+
+        </tr>
+    </thead>
+    
+    {% for users in userDetails %}
+    
+    <tbody>
+        <tr>
+            <td>{{users[1]}}</td>
+            <td>{{users[2]}}</td>
+            <td>{{users[3]}}</td>
+        </tr>
+    </tbody>
+   
+
+    {% endfor %}
+
+    
+</table>
+
+</body>
+</html>

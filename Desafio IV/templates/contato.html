@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/estilo.css') }}">
+</head>
+<style>
+   
+    
+</style>
+<body background="{{ url_for('static', filename='img/fundo2.png')}}">
+     <div>
+         <img src="{{ url_for('static', filename='img/logo.png')}}" alt="" style="margin-top: 30px;margin-left: 100px;">
+         <a style="margin-right: 100px;" href="/contatos">Contato</a>
+         <a href="/quemsomos">Quem somos |</a>
+         <a href="/">Home |</a>
+     </div>
+     <div>
+        <h2 style="margin-left:100px; margin-top: 40px;;">Entre em contato</h2>
+        <p style="margin-left:100px; margin-right: 100px; margin-top: 25px;;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consequatur quisquam sequi quia. </p>
+        <div> 
+        <p><hr class="linha"> </p>  </div>
+     </div>
+     <div>
+        <form method="POST" action="/contatos">
+
+            Seu e-mail: <br>
+            <input type="email" name="email" required><br>
+
+            Assunto: <br>
+            <input type="text" name="assunto" required><br>
+
+            Descrição : <br>
+            <input type="text" name="descricao" required><br>
+
+            <input type="submit">
+        </form>
+
+     </div>
+     <div>
+        
+            <h4 style="margin-top: 50px; text-align: center;">Todos os direitos reservados</h4>
+        
+     </div>
+
+
+
+
+</body>
+</html>
